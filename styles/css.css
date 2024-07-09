@@ -9,7 +9,6 @@
     font-style: normal;
 }
 body {
-    background-color: #411012;
     color: #ff7a21;
 }
 .header_stuff {
@@ -36,7 +35,7 @@ body {
     font-size: 16px;
 }
 .navigation ul a:hover {
-    color: orange;
+    color: wheat;
 }
 .butt_h {
     padding: 5px 20px;
@@ -56,6 +55,7 @@ body {
 .header {
     background-image: url(../assets/images/web\ dev\ bg\ design.png), url(../assets/images/web\ dev\ bg\ design.png), url(../assets/images/abstract\ bg\ header.png);
     background-repeat: no-repeat;
+    background-color: #411012;
     width: auto;
     background-position: left, right, bottom;
     padding: 10px 20px;
@@ -84,5 +84,5 @@ body {
     margin: 50px 10% 0px 10%;
 }
 .self_pic_head img {
-    width: 325px;
+    max-width: 400px;
 }
