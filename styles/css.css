@@ -81,6 +81,7 @@ body {
 .banner {
     display: flex;
     justify-content: space-between;
+    max-width: 2400px;
     margin: 50px 10% 0px 10%;
 }
 .self_pic_head img {
